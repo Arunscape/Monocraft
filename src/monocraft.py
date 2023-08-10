@@ -76,6 +76,7 @@ def generateFont():
 
 	monocraft.generate(outputDir + "Monocraft.ttf")
 	monocraft.generate(outputDir + "Monocraft.otf")
+	monocraft.generate(outputDir + "Monocraft.woff2")
 
 def generateImage(character):
 	image = PixelImage()
